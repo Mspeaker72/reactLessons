@@ -1,3 +1,4 @@
+import Button from "./components/Button";
 import ListGroup from "./components/ListGroup";
 import Alert from "./components/alert";
 function App(){
@@ -11,7 +12,7 @@ function App(){
   // onSelectedItem={handleSelectedItem}>
   // </ListGroup>
 
-  return <div><Alert>Metro Boomin</Alert></div>
+  return <div><Button text="confirm" color="dark" onClick={()=> console.log("pressed")}></Button></div>
 }
 
 export default App;

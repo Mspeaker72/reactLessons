@@ -1,7 +1,7 @@
-import React, { Children } from 'react'
+import React, { Children, ReactNode } from 'react'
 
 interface Prop{
-    children:string
+    children:ReactNode
 }
 
 function Alert({children}:Prop) {
