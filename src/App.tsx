@@ -12,7 +12,7 @@ function App(){
   // onSelectedItem={handleSelectedItem}>
   // </ListGroup>
 
-  return <div><Button text="confirm" color="dark" onClick={()=> console.log("pressed")}></Button></div>
+  return <div><Button text="confirm" color="success" onClick={()=> console.log("pressed")}></Button></div>
 }
 
 export default App;
